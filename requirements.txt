@@ -1,0 +1,37 @@
+# OpenCog and Cognitive Processing
+opencog
+cogserver
+atomspace-python
+hyperon-das
+cogutil
+
+# Bot Framework Python SDK
+botbuilder-core>=4.15.0
+botbuilder-schema>=4.15.0
+botbuilder-connector-auth>=4.15.0
+aiohttp>=3.8.0
+
+# Machine Learning and AI
+tensorflow>=2.13.0
+torch>=2.0.0
+transformers>=4.21.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Cognitive Architecture Support
+networkx>=3.1
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+requests>=2.31.0
+websockets>=11.0
