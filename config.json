@@ -1,0 +1,81 @@
+{
+  "opencog": {
+    "schemes": {
+      "reasoning": true,
+      "learning": true,
+      "patternMatching": true,
+      "conceptualBlending": true,
+      "emotionalProcessing": true
+    },
+    "reasoning": {
+      "ruleEngine": "PLN",
+      "maxInferenceSteps": 100,
+      "confidenceThreshold": 0.7,
+      "attentionAllocation": true,
+      "temporalReasoning": true
+    },
+    "learning": {
+      "conceptFormation": true,
+      "patternRecognition": true,
+      "memoryConsolidation": true,
+      "adaptiveBehavior": true
+    }
+  },
+  "orchestrator": {
+    "autogenesisEnabled": true,
+    "synergyThreshold": 0.8,
+    "emergentBehaviorDetection": true,
+    "adaptiveLearning": {
+      "enabled": true,
+      "updateInterval": 3600000,
+      "memoryConsolidation": true,
+      "conceptDrift": true,
+      "reinforcementLearning": true
+    },
+    "cognitiveProcesses": {
+      "attentionAllocation": true,
+      "workingMemory": true,
+      "episodicMemory": true,
+      "semanticMemory": true,
+      "proceduralMemory": true
+    }
+  },
+  "cognitive": {
+    "contextualMemory": {
+      "shortTerm": 100,
+      "longTerm": 10000,
+      "episodic": 1000,
+      "semantic": 5000
+    },
+    "emotionalModeling": {
+      "enabled": true,
+      "dimensions": ["valence", "arousal", "dominance"],
+      "decayRate": 0.95,
+      "influenceThreshold": 0.3
+    },
+    "creativity": {
+      "enabled": true,
+      "conceptualBlending": true,
+      "analogicalReasoning": true,
+      "noveltyDetection": true
+    }
+  },
+  "server": {
+    "cors": {
+      "enabled": true,
+      "origins": ["http://localhost:3000", "https://your-bot-domain.com"]
+    },
+    "security": {
+      "rateLimiting": true,
+      "inputValidation": true,
+      "outputSanitization": true
+    }
+  },
+  "logging": {
+    "cognitiveEvents": true,
+    "performanceMetrics": true,
+    "synergyDetection": true,
+    "autogenesisEvents": true,
+    "learningProgress": true
+  }
+}
